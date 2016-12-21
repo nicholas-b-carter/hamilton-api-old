@@ -4,7 +4,7 @@
   "description": "",
   "main": "handler.js",
   "dependencies": {
-    "aws-sdk": "^2.7.16",
+    "aws-sdk": "^2.7.17",
     "lodash": "^4.17.2"
   },
   "devDependencies": {
