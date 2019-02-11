@@ -4,8 +4,8 @@
   "description": "",
   "main": "handler.js",
   "dependencies": {
-    "aws-sdk": "^2.7.16",
-    "lodash": "^4.17.2"
+    "aws-sdk": "^2.38.0",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "eslint": "^3.5.0",
