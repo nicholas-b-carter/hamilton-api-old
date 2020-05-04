@@ -5,7 +5,8 @@
   "main": "handler.js",
   "dependencies": {
     "aws-sdk": "^2.7.16",
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "eslint": "^3.5.0",
@@ -13,8 +14,11 @@
     "eslint-plugin-node": "^3.0.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "Nicholas Carter",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
